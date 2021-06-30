@@ -101,6 +101,7 @@ the last part contains additional information about the image shown when use hov
 ![Octocat](https://user-images.githubusercontent.com/81953271/124010886-b571ca80-d9df-11eb-86ac-b358c48ac6aa.png width="200px" align="center" "Github Logo") 
 
 ### Resize images
+<img src="https://github.com/darsaveli/Mariam/blob/main/1479814528_webarebears.gif" width="385px" align="right">
 
 You can use tags like width="385px" align="right" etc depending what you need.
 
