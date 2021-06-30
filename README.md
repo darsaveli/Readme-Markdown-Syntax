@@ -9,6 +9,7 @@ You can use Markdown most places around GitHub:
 3. Files with the .md or .markdown extension
 4. For more information, see “Writing on GitHub” in the GitHub Help.
 
+___
 
 ### Headers
 
@@ -28,6 +29,7 @@ You can use Markdown most places around GitHub:
 ##### Heading 5
 ###### Heading 6
 
+___
 
 ### Font
 
@@ -48,11 +50,11 @@ __This will also be bold__<br>
 _You **can** combine them_<br>
 ***Bold and Italics***<br>
 ~~Striked Text~~
+___
 
+### Lists
 
-### Lists(Unordered and Ordered)
-
-Unordered list
+Unordered 
 ```git
 * Item 1
 * Item 2
@@ -65,7 +67,7 @@ Unordered list
   * Item 1a
   * Item 2a
 
-Ordered list
+Ordered 
 ```git
 1. Item 1
 2. Item 2
@@ -77,6 +79,8 @@ Ordered list
 2. Item 2
     1. Item 1a
     2. Item 2a
+
+___
 
 ### Links
 
@@ -88,7 +92,7 @@ Ordered list
 * [This is a link to more information for structuring the information shared on GitHub with various formatting options](https://docs.github.com/en/github/writing-on-github)
 * <https://www.google.com/>
 
-### Images or Gifs
+### Inserting Images or Gifs with links
 
 ```
 ![Octocat](https://user-images.githubusercontent.com/81953271/124010886-b571ca80-d9df-11eb-86ac-b358c48ac6aa.png "Github Logo") 
@@ -97,6 +101,8 @@ As same as links, but add an exlamation mark (!) before opening square bracket.
 The square bracket contains `alt` for the image and parenthesis contains image source.  
 Image source can be either a location from the local machine or any valid image URL.  
 the last part contains additional information about the image shown when use hovers through it.
+
+p.s. dropping the image to the readme file will upload it automatically with this syntax.
 
 ![Octocat](https://user-images.githubusercontent.com/81953271/124010886-b571ca80-d9df-11eb-86ac-b358c48ac6aa.png "Github Logo") 
 
@@ -118,6 +124,7 @@ To open another webpage when image is clicked, enclose the Markdown for the imag
 
  ![Octocat](https://user-images.githubusercontent.com/81953271/124010886-b571ca80-d9df-11eb-86ac-b358c48ac6aa.png "Github Logo") 
 (https://github.com/)
+___
 
 ### Tables
 
@@ -134,6 +141,8 @@ To open another webpage when image is clicked, enclose the Markdown for the imag
 | This | is a | table |
 | This | is 2nd | row |
 | This | is 3rd | row |
+
+___
 
 ### CheckBox
 
@@ -152,6 +161,8 @@ To open another webpage when image is clicked, enclose the Markdown for the imag
 
 * [x] Checkbox selected
 
+___
+
 ### Block Quotes
 
 ```git
@@ -159,6 +170,8 @@ To open another webpage when image is clicked, enclose the Markdown for the imag
 ```
 
 > This is a block quoted text
+
+___
 
 ### Horizontal Line
 
@@ -169,6 +182,11 @@ ___
 ```
 
 All three will be rendered as:
+___
+p.s. 
+```git
+<hr> works too
+```
 ___
 
 ### Code Block
@@ -190,6 +208,8 @@ There are three ways to add code in markdown
 console.log('Used backticks to show snippets')
 ```
     console.log('four whitespace works too!')    
+    
+___
 
 ### Syntax Highlighting
 If language name is mentioned after the end of first set of backticks, the code snippet will be highlighted according to the language.
@@ -233,12 +253,14 @@ System.out.println('java')
   "age": 18
 }
 ```
+___
 
 ### Break between lines
 
 ```git
 <br>
 ```
+___
 
 ### How to make visible characters used for markdown? 
  
@@ -246,6 +268,7 @@ System.out.println('java')
 ```git
  * __ <br> etc ```
 ```
+___
 
 ### Emoji
 GitHub supports emoji!
