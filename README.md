@@ -92,7 +92,7 @@ ___
 * [Link with more info with various formatting options](https://docs.github.com/en/github/writing-on-github)
 * <https://www.google.com/>
 
-### Inserting Images or Gifs with links
+### Inserting Images or Gifs using links
 
 ```
 ![Octocat](https://user-images.githubusercontent.com/81953271/124010886-b571ca80-d9df-11eb-86ac-b358c48ac6aa.png "Github Logo") 
@@ -102,7 +102,7 @@ The square bracket contains `alt` for the image and parenthesis contains image s
 Image source can be either a location from the local machine or any valid image URL.  
 the last part contains additional information about the image shown when use hovers through it.
 
-p.s. dropping the image to the readme file will upload it automatically with this syntax.
+p.s. dropping the image to the readme file will upload it automatically with this syntax too.
 
 ![Octocat](https://user-images.githubusercontent.com/81953271/124010886-b571ca80-d9df-11eb-86ac-b358c48ac6aa.png "Github Logo") 
 
@@ -228,8 +228,8 @@ If language name is mentioned after the end of first set of backticks, the code 
        
     ```json
     {
-      "firstName": "Kaushal",
-      "lastName": "Joshi
+      "firstName": "A",
+      "lastName": "B
       "age": 18
     }
     ```
@@ -248,8 +248,8 @@ System.out.println('java')
 
 ```json
 {
-  "firstName": "Kaushal",
-  "lastName": "Joshi",
+  "firstName": "A",
+  "lastName": "B",
   "age": 18
 }
 ```
@@ -262,7 +262,7 @@ ___
 ```
 ___
 
-### How to make visible characters used for markdown? 
+### How to make visible markdown characters? 
  
 ```git
 ```git
@@ -277,4 +277,4 @@ GitHub supports emoji!
 ```
 :grinning:	or just place the emoji 😀
 
-To see a list of every image we support, check out the [Emoji Cheat Sheet](https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md)
+To see a list of every image Github supports, check out the [Emoji Cheat Sheet](https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md)
