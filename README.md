@@ -12,7 +12,6 @@ You can use Markdown most places around GitHub:
 
 ### Headers
 
-#### Syntax
 ```git
 # Heading 1
 ## Heading 2
@@ -22,7 +21,6 @@ You can use Markdown most places around GitHub:
 ###### Heading 6
 ```
 
-#### Appearance
 # Heading 1
 ## Heading 2
 ### Heading 3
@@ -33,7 +31,6 @@ You can use Markdown most places around GitHub:
 
 ### Font
 
-#### Syntax
 ```git
 *Italics*
 _This will also be italic_
@@ -44,20 +41,17 @@ _You **can** combine them_
 ~~Striked Text~~
 ```
 
-#### Appearance
-
-*Italics*
-_This will also be italic_
-**Bold Text**
-__This will also be bold__
-_You **can** combine them_
-***Bold and Italics***
+*Italics* <br>
+_This will also be italic_<br>
+**Bold Text**<br>
+__This will also be bold__<br>
+_You **can** combine them_<br>
+***Bold and Italics***<br>
 ~~Striked Text~~
 
 
 ### Lists(Unordered and Ordered)
 
-#### Syntax
 Unordered list
 ```git
 * Item 1
@@ -66,7 +60,6 @@ Unordered list
   * Item 2a
 ```
 
-#### Appearance
 * Item 1
 * Item 2
   * Item 1a
@@ -79,7 +72,7 @@ Ordered list
     1. Item 1a
     2. Item 2a
 ```
-#### Appearance
+
 1. Item 1
 2. Item 2
     1. Item 1a
@@ -87,18 +80,16 @@ Ordered list
 
 ### Links
 
-#### Syntax
 ```git
 * [This is a link to more information, in the GitHub Help for structuring the information shared on GitHub with various formatting options](https://docs.github.com/en/github/writing-on-github)
 * <https://www.google.com/>
 ```
 
-#### Appearance
 * [This is a link to more information, in the GitHub Help for structuring the information shared on GitHub with various formatting options](https://docs.github.com/en/github/writing-on-github)
 * <https://www.google.com/>
 
 ### Images
-#### Syntax
+
 ```
  ![GitHub Logo](https://cdn4.iconfinder.com/data/icons/iconsimple-logotypes/512/github-512.png "GitHub Logo")
 ```
@@ -106,24 +97,21 @@ As same as links, but add an exlamation mark (!) before opening square bracket.
 The square bracket contains `alt` for the image and parenthesis contains image source.  
 Image source can be either a location from the local machine or any valid image URL.  
 the last part contains additional information about the image shown when use hovers through it.
-#### Appearence
+
  ![GitHub Logo](https://cdn4.iconfinder.com/data/icons/iconsimple-logotypes/512/github-512.png "GitHub Logo")
  
 
 ### Linking Image
 To open another webpage when image is clicked, enclose the Markdown for the image in brackets, and then add the link in parentheses.
 
-#### Syntax
 ```
  [![GitHub Logo](https://cdn4.iconfinder.com/data/icons/iconsimple-logotypes/512/github-512.png "GitHub Logo")](https://github.com/)
 ```
 
-#### Appearance
 [![GitHub Logo](https://cdn4.iconfinder.com/data/icons/iconsimple-logotypes/512/github-512.png "GitHub Logo")](https://github.com/)
 
 ### Tables
 
-#### Syntax
 ```git
 |Header1|Header2|Header3|
 | --- | --- | --- |
@@ -132,7 +120,6 @@ To open another webpage when image is clicked, enclose the Markdown for the imag
 | This | is 3rd | row |
 ```
 
-#### Appearance
 |Header1|Header2|Header3|
 | --- | --- | --- |
 | This | is a | table |
@@ -141,7 +128,6 @@ To open another webpage when image is clicked, enclose the Markdown for the imag
 
 ### CheckBox
 
-#### Syntax
 ```git
 * [ ] Checkbox1
 
@@ -150,7 +136,6 @@ To open another webpage when image is clicked, enclose the Markdown for the imag
 * [x] Checkbox selected
 ```
 
-#### Appearance
 
 * [ ] Checkbox1
 
@@ -160,22 +145,20 @@ To open another webpage when image is clicked, enclose the Markdown for the imag
 
 ### Block Quotes
 
-#### Syntax
 ```git
 > This is a block quoted text
 ```
 
-#### Appearance
 > This is a block quoted text
 
 ### Horizontal Line
-#### Syntax
+
 ```git
 ***
 ___
 --- 
 ```
-#### Appearance
+
 All three will be rendered as:
 ___
 
@@ -185,7 +168,6 @@ There are three ways to add code in markdown
 1. Whitespace (Four Spaces Indentation)
 1. Fenced Code Block (Three Backticks *or* Tildes)
 
-#### Syntax
     `this` is an example of inline code.
     
     '''
@@ -194,7 +176,6 @@ There are three ways to add code in markdown
     
     console.log('four whitespace works too!')
     
-#### Appearance
 `this` is an example of inline code.
 ```
 console.log('Used backticks to show snippets')
@@ -204,7 +185,6 @@ console.log('Used backticks to show snippets')
 ### Syntax Highlighting
 If language name is mentioned after the end of first set of backticks, the code snippet will be highlighted according to the language.
 
-#### Syntax
     ```js
     console.log('javascript')
     ```
@@ -225,7 +205,6 @@ If language name is mentioned after the end of first set of backticks, the code 
     }
     ```
 
-#### Appearance 
 ```js
 console.log('javascript')
 ```
@@ -259,7 +238,6 @@ between lines to insert a break
 Use 
 ```git
 ```git
- * __ <br> etc.
-```
+ * __ <br> etc ```
 ```
 
