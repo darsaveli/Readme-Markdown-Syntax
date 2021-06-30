@@ -108,7 +108,7 @@ the last part contains additional information about the image shown when use hov
 
 p.s. dropping the image to the readme file will upload it automatically with this syntax too.
 
-![Octocat](https://user-images.githubusercontent.com/81953271/124010886-b571ca80-d9df-11eb-86ac-b358c48ac6aa.png | width=100) 
+![Octocat](https://user-images.githubusercontent.com/81953271/124010886-b571ca80-d9df-11eb-86ac-b358c48ac6aa.png) 
 
 ### Resize images/Gifs
 ```
@@ -129,7 +129,7 @@ To open another webpage when image is clicked, enclose the Markdown for the imag
 (https://github.com/)
 ```
 
- ![Octocat](https://user-images.githubusercontent.com/81953271/124010886-b571ca80-d9df-11eb-86ac-b358c48ac6aa.png | width=100px) 
+ ![Octocat](https://user-images.githubusercontent.com/81953271/124010886-b571ca80-d9df-11eb-86ac-b358c48ac6aa.png) 
 (https://github.com/)
 ___
 
