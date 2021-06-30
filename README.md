@@ -108,7 +108,7 @@ the last part contains additional information about the image shown when use hov
 
 p.s. dropping the image to the readme file will upload it automatically with this syntax too.
 
-![Octocat](https://user-images.githubusercontent.com/81953271/124010886-b571ca80-d9df-11eb-86ac-b358c48ac6aa.png "Github Logo" =250x250) 
+![Octocat](https://user-images.githubusercontent.com/81953271/124010886-b571ca80-d9df-11eb-86ac-b358c48ac6aa.png =250x250) 
 
 ### Resize images/Gifs
 ```
@@ -119,8 +119,8 @@ p.s. dropping the image to the readme file will upload it automatically with thi
 You can use HTML tags like width="385px", align="right", hight="876px", etc depending what you need. In this case this gif was once uploaded to the repository and the link was taken from there.
 
 Other options to resize: 
-- `![](https://github.com/darsaveli/Mariam/blob/main/1479814528_webarebears.gif | width=100)`
-- `![](https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png =250x250)`
+- `![](https://  link | width=100)`
+- `![](https:// link =250x250)`
 
 
 ### Linking Image/Gif
@@ -131,7 +131,7 @@ To open another webpage when image is clicked, enclose the Markdown for the imag
 (https://github.com/)
 ```
 
- ![Octocat](https://user-images.githubusercontent.com/81953271/124010886-b571ca80-d9df-11eb-86ac-b358c48ac6aa.png "Github Logo" =250x250) 
+ ![Octocat](https://user-images.githubusercontent.com/81953271/124010886-b571ca80-d9df-11eb-86ac-b358c48ac6aa.png =250x250) 
 (https://github.com/)
 ___
 
