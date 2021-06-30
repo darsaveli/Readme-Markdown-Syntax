@@ -1,4 +1,3 @@
-![Octocat](https://user-images.githubusercontent.com/81953271/124010886-b571ca80-d9df-11eb-86ac-b358c48ac6aa.png)
 # Readme Markdown Syntax
 Markdown is a syntax for styling all forms of writing on the GitHub platform.
 Mostly, it is just regular text with a few non-alphabetic characters thrown in, like ```git # or * ```
@@ -92,26 +91,25 @@ Ordered list
 ### Images
 
 ```
- ![GitHub Logo](![Octocat](https://user-images.githubusercontent.com/81953271/124010671-64fa6d00-d9df-11eb-9dfd-99378d7b7ffe.png "GitHub Logo")
+![Octocat](https://user-images.githubusercontent.com/81953271/124010886-b571ca80-d9df-11eb-86ac-b358c48ac6aa.png "Github Logo") 
 ```
 As same as links, but add an exlamation mark (!) before opening square bracket.  
 The square bracket contains `alt` for the image and parenthesis contains image source.  
 Image source can be either a location from the local machine or any valid image URL.  
 the last part contains additional information about the image shown when use hovers through it.
 
- ![GitHub Logo](![Octocat](https://user-images.githubusercontent.com/81953271/124010671-64fa6d00-d9df-11eb-9dfd-99378d7b7ffe.png "GitHub Logo")
- 
+![Octocat](https://user-images.githubusercontent.com/81953271/124010886-b571ca80-d9df-11eb-86ac-b358c48ac6aa.png "Github Logo") 
 
 ### Linking Image
 To open another webpage when image is clicked, enclose the Markdown for the image in brackets, and then add the link in parentheses.
 
 ```
- [![GitHub Logo](![Octocat](https://user-images.githubusercontent.com/81953271/124010671-64fa6d00-d9df-11eb-9dfd-99378d7b7ffe.png)
-"GitHub Logo")](https://github.com/)
+![Octocat](https://user-images.githubusercontent.com/81953271/124010886-b571ca80-d9df-11eb-86ac-b358c48ac6aa.png "Github Logo") 
+(https://github.com/)
 ```
 
- [![GitHub Logo](![Octocat](https://user-images.githubusercontent.com/81953271/124010671-64fa6d00-d9df-11eb-9dfd-99378d7b7ffe.png)
-"GitHub Logo")](https://github.com/)
+ ![Octocat](https://user-images.githubusercontent.com/81953271/124010886-b571ca80-d9df-11eb-86ac-b358c48ac6aa.png "Github Logo") 
+(https://github.com/)
 
 ### Tables
 
