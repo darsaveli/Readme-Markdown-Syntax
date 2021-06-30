@@ -85,11 +85,11 @@ ___
 ### Links
 
 ```git
-* [This is a link to more information for structuring the information shared on GitHub with various formatting options](https://docs.github.com/en/github/writing-on-github)
+* [Link with more info with various formatting options](https://docs.github.com/en/github/writing-on-github)
 * <https://www.google.com/>
 ```
 
-* [This is a link to more information for structuring the information shared on GitHub with various formatting options](https://docs.github.com/en/github/writing-on-github)
+* [Link with more info with various formatting options](https://docs.github.com/en/github/writing-on-github)
 * <https://www.google.com/>
 
 ### Inserting Images or Gifs with links
@@ -277,4 +277,4 @@ GitHub supports emoji!
 ```
 :grinning:	or just place the emoji 😀
 
-To see a list of every image we support, check out the [Emoji Cheat Sheet] (https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md)
+To see a list of every image we support, check out the [Emoji Cheat Sheet](https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md)
