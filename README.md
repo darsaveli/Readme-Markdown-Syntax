@@ -98,12 +98,15 @@ The square bracket contains `alt` for the image and parenthesis contains image s
 Image source can be either a location from the local machine or any valid image URL.  
 the last part contains additional information about the image shown when use hovers through it.
 
-![Octocat](https://user-images.githubusercontent.com/81953271/124010886-b571ca80-d9df-11eb-86ac-b358c48ac6aa.png width="200px" align="center" "Github Logo") 
+![Octocat](https://user-images.githubusercontent.com/81953271/124010886-b571ca80-d9df-11eb-86ac-b358c48ac6aa.png "Github Logo") 
 
-### Resize images
-<img src="https://github.com/darsaveli/Mariam/blob/main/1479814528_webarebears.gif" width="385px" align="right">
+### Resize images/Gifs
+```
+<img src="https://github.com/darsaveli/Mariam/blob/main/1479814528_webarebears.gif" width="385px" align="center">
+```
+<img src="https://github.com/darsaveli/Mariam/blob/main/1479814528_webarebears.gif" width="385px" align="center">
 
-You can use tags like width="385px" align="right" etc depending what you need.
+You can use tags like width="385px" align="right" etc depending what you need. In this case this gif was once uploaded to the repository and the link was taken from there.
 
 ### Linking Image/Gif
 To open another webpage when image is clicked, enclose the Markdown for the image in brackets, and then add the link in parentheses.
