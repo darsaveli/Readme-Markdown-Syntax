@@ -252,4 +252,6 @@ GitHub supports emoji!
 ```git
 :grinning:	or just place the emoji 😀
 ```
+:grinning:	or just place the emoji 😀
+
 To see a list of every image we support, check out the (Emoji Cheat Sheet) [https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md]
