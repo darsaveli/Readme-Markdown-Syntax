@@ -88,7 +88,7 @@ Ordered list
 * [This is a link to more information for structuring the information shared on GitHub with various formatting options](https://docs.github.com/en/github/writing-on-github)
 * <https://www.google.com/>
 
-### Images
+### Images or Gifs
 
 ```
 ![Octocat](https://user-images.githubusercontent.com/81953271/124010886-b571ca80-d9df-11eb-86ac-b358c48ac6aa.png "Github Logo") 
@@ -98,13 +98,13 @@ The square bracket contains `alt` for the image and parenthesis contains image s
 Image source can be either a location from the local machine or any valid image URL.  
 the last part contains additional information about the image shown when use hovers through it.
 
-![Octocat](https://user-images.githubusercontent.com/81953271/124010886-b571ca80-d9df-11eb-86ac-b358c48ac6aa.png "Github Logo" width="200px" align="center") 
+![Octocat](https://user-images.githubusercontent.com/81953271/124010886-b571ca80-d9df-11eb-86ac-b358c48ac6aa.png width="200px" align="center" "Github Logo") 
 
 ### Resize images
 
 You can use tags like width="385px" align="right" etc depending what you need.
 
-### Linking Image
+### Linking Image/Gif
 To open another webpage when image is clicked, enclose the Markdown for the image in brackets, and then add the link in parentheses.
 
 ```
@@ -112,7 +112,7 @@ To open another webpage when image is clicked, enclose the Markdown for the imag
 (https://github.com/)
 ```
 
- ![Octocat](https://user-images.githubusercontent.com/81953271/124010886-b571ca80-d9df-11eb-86ac-b358c48ac6aa.png "Github Logo" width="200px" align="center") 
+ ![Octocat](https://user-images.githubusercontent.com/81953271/124010886-b571ca80-d9df-11eb-86ac-b358c48ac6aa.png "Github Logo") 
 (https://github.com/)
 
 ### Tables
