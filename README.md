@@ -225,17 +225,14 @@ System.out.println('java')
 }
 ```
 
-#### Break between lines
+### Break between lines
 
-Add
 ```git
 <br>
 ```
-between lines to insert a break
 
-#### How to make visible characters used for markdown? 
-
-Use 
+### How to make visible characters used for markdown? 
+ 
 ```git
 ```git
  * __ <br> etc ```
