@@ -91,24 +91,26 @@ Ordered list
 ### Images
 
 ```
- ![GitHub Logo](https://www.google.com/url?sa=i&url=https%3A%2F%2Fgithub.com%2Flogos&psig=AOvVaw0sA2HZ85IJvoOYlRE4urTd&ust=1625162801960000&source=images&cd=vfe&ved=0CAoQjRxqFwoTCPDNhq75v_ECFQAAAAAdAAAAABAD "GitHub Logo")
+ ![GitHub Logo](![Octocat](https://user-images.githubusercontent.com/81953271/124010671-64fa6d00-d9df-11eb-9dfd-99378d7b7ffe.png "GitHub Logo")
 ```
 As same as links, but add an exlamation mark (!) before opening square bracket.  
 The square bracket contains `alt` for the image and parenthesis contains image source.  
 Image source can be either a location from the local machine or any valid image URL.  
 the last part contains additional information about the image shown when use hovers through it.
 
- ![GitHub Logo](https://www.google.com/url?sa=i&url=https%3A%2F%2Fgithub.com%2Flogos&psig=AOvVaw0sA2HZ85IJvoOYlRE4urTd&ust=1625162801960000&source=images&cd=vfe&ved=0CAoQjRxqFwoTCPDNhq75v_ECFQAAAAAdAAAAABAD "GitHub Logo")
+ ![GitHub Logo](![Octocat](https://user-images.githubusercontent.com/81953271/124010671-64fa6d00-d9df-11eb-9dfd-99378d7b7ffe.png "GitHub Logo")
  
 
 ### Linking Image
 To open another webpage when image is clicked, enclose the Markdown for the image in brackets, and then add the link in parentheses.
 
 ```
- [![GitHub Logo](https://www.google.com/url?sa=i&url=https%3A%2F%2Fgithub.com%2Flogos&psig=AOvVaw0sA2HZ85IJvoOYlRE4urTd&ust=1625162801960000&source=images&cd=vfe&ved=0CAoQjRxqFwoTCPDNhq75v_ECFQAAAAAdAAAAABAD "GitHub Logo")](https://github.com/)
+ [![GitHub Logo](![Octocat](https://user-images.githubusercontent.com/81953271/124010671-64fa6d00-d9df-11eb-9dfd-99378d7b7ffe.png)
+"GitHub Logo")](https://github.com/)
 ```
 
-[![GitHub Logo](https://www.google.com/url?sa=i&url=https%3A%2F%2Fgithub.com%2Flogos&psig=AOvVaw0sA2HZ85IJvoOYlRE4urTd&ust=1625162801960000&source=images&cd=vfe&ved=0CAoQjRxqFwoTCPDNhq75v_ECFQAAAAAdAAAAABAD "GitHub Logo")](https://github.com/)
+ [![GitHub Logo](![Octocat](https://user-images.githubusercontent.com/81953271/124010671-64fa6d00-d9df-11eb-9dfd-99378d7b7ffe.png)
+"GitHub Logo")](https://github.com/)
 
 ### Tables
 
