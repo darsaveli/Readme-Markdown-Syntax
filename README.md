@@ -108,7 +108,7 @@ the last part contains additional information about the image shown when use hov
 
 p.s. dropping the image to the readme file will upload it automatically with this syntax too.
 
-![Octocat](https://user-images.githubusercontent.com/81953271/124010886-b571ca80-d9df-11eb-86ac-b358c48ac6aa.png =250x250) 
+![Octocat](https://user-images.githubusercontent.com/81953271/124010886-b571ca80-d9df-11eb-86ac-b358c48ac6aa.png | width=100) 
 
 ### Resize images/Gifs
 ```
@@ -120,8 +120,6 @@ You can use HTML tags like width="385px", align="right", hight="876px", etc depe
 
 Other options to resize: 
 - `![](https://  link | width=100)`
-- `![](https:// link =250x250)`
-
 
 ### Linking Image/Gif
 To open another webpage when image is clicked, enclose the Markdown for the image in brackets, and then add the link in parentheses.
@@ -131,7 +129,7 @@ To open another webpage when image is clicked, enclose the Markdown for the imag
 (https://github.com/)
 ```
 
- ![Octocat](https://user-images.githubusercontent.com/81953271/124010886-b571ca80-d9df-11eb-86ac-b358c48ac6aa.png =250x250) 
+ ![Octocat](https://user-images.githubusercontent.com/81953271/124010886-b571ca80-d9df-11eb-86ac-b358c48ac6aa.png | width=100px) 
 (https://github.com/)
 ___
 
