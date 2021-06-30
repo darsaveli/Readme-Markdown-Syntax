@@ -81,34 +81,34 @@ Ordered list
 ### Links
 
 ```git
-* [This is a link to more information, in the GitHub Help for structuring the information shared on GitHub with various formatting options](https://docs.github.com/en/github/writing-on-github)
+* [This is a link to more information for structuring the information shared on GitHub with various formatting options](https://docs.github.com/en/github/writing-on-github)
 * <https://www.google.com/>
 ```
 
-* [This is a link to more information, in the GitHub Help for structuring the information shared on GitHub with various formatting options](https://docs.github.com/en/github/writing-on-github)
+* [This is a link to more information for structuring the information shared on GitHub with various formatting options](https://docs.github.com/en/github/writing-on-github)
 * <https://www.google.com/>
 
 ### Images
 
 ```
- ![GitHub Logo](https://cdn4.iconfinder.com/data/icons/iconsimple-logotypes/512/github-512.png "GitHub Logo")
+ ![GitHub Logo](https://www.google.com/url?sa=i&url=https%3A%2F%2Fgithub.com%2Flogos&psig=AOvVaw0sA2HZ85IJvoOYlRE4urTd&ust=1625162801960000&source=images&cd=vfe&ved=0CAoQjRxqFwoTCPDNhq75v_ECFQAAAAAdAAAAABAD "GitHub Logo")
 ```
 As same as links, but add an exlamation mark (!) before opening square bracket.  
 The square bracket contains `alt` for the image and parenthesis contains image source.  
 Image source can be either a location from the local machine or any valid image URL.  
 the last part contains additional information about the image shown when use hovers through it.
 
- ![GitHub Logo](https://cdn4.iconfinder.com/data/icons/iconsimple-logotypes/512/github-512.png "GitHub Logo")
+ ![GitHub Logo](https://www.google.com/url?sa=i&url=https%3A%2F%2Fgithub.com%2Flogos&psig=AOvVaw0sA2HZ85IJvoOYlRE4urTd&ust=1625162801960000&source=images&cd=vfe&ved=0CAoQjRxqFwoTCPDNhq75v_ECFQAAAAAdAAAAABAD "GitHub Logo")
  
 
 ### Linking Image
 To open another webpage when image is clicked, enclose the Markdown for the image in brackets, and then add the link in parentheses.
 
 ```
- [![GitHub Logo](https://cdn4.iconfinder.com/data/icons/iconsimple-logotypes/512/github-512.png "GitHub Logo")](https://github.com/)
+ [![GitHub Logo](https://www.google.com/url?sa=i&url=https%3A%2F%2Fgithub.com%2Flogos&psig=AOvVaw0sA2HZ85IJvoOYlRE4urTd&ust=1625162801960000&source=images&cd=vfe&ved=0CAoQjRxqFwoTCPDNhq75v_ECFQAAAAAdAAAAABAD "GitHub Logo")](https://github.com/)
 ```
 
-[![GitHub Logo](https://cdn4.iconfinder.com/data/icons/iconsimple-logotypes/512/github-512.png "GitHub Logo")](https://github.com/)
+[![GitHub Logo](https://www.google.com/url?sa=i&url=https%3A%2F%2Fgithub.com%2Flogos&psig=AOvVaw0sA2HZ85IJvoOYlRE4urTd&ust=1625162801960000&source=images&cd=vfe&ved=0CAoQjRxqFwoTCPDNhq75v_ECFQAAAAAdAAAAABAD "GitHub Logo")](https://github.com/)
 
 ### Tables
 
