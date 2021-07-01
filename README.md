@@ -170,13 +170,15 @@ ___
 
 ___
 
-### Quotes
+### Quoting Text
 
 ```git
 > This is a block quoted text
 ```
 
 > This is a block quoted text
+
+### Quoting line
 
 ```git
 `git status`
@@ -283,9 +285,12 @@ ___
 ```
 ___
 
-### Comments
+### Comments in Markdown
 
+```git
 <!-- comment written in markdown -->
+```
+They will be invisible on readme
 ___
 
 ### Emoji
