@@ -88,24 +88,14 @@ ___
 
 ### Links
 
-https://pages.github.com/
-
-<https://pages.github.com/>
-
-[GitHub Pages](https://pages.github.com/)
-
-[GitHub Pages](https://pages.github.com/ "tool tip")
-
-[GitHub][1]
-
-[GitHub home ][github]
-
 ```git
-* [Link with more info with various formatting options](https://docs.github.com/en/github/writing-on-github)
+* [Link with more info with various formatting options](https://docs.github.com/en/github/writing-on-github "more info")
+* https://www.google.com/
 * <https://www.google.com/>
 ```
 
-* [Link with more info with various formatting options](https://docs.github.com/en/github/writing-on-github)
+* [Link with more info with various formatting options](https://docs.github.com/en/github/writing-on-github "more info")
+* https://www.google.com/
 * <https://www.google.com/>
 
 ### Inserting Images or Gifs using links
