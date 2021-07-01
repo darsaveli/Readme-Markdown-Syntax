@@ -88,6 +88,18 @@ ___
 
 ### Links
 
+https://pages.github.com/
+
+<https://pages.github.com/>
+
+[GitHub Pages](https://pages.github.com/)
+
+[GitHub Pages](https://pages.github.com/ "tool tip")
+
+[GitHub][1]
+
+[GitHub home ][github]
+
 ```git
 * [Link with more info with various formatting options](https://docs.github.com/en/github/writing-on-github)
 * <https://www.google.com/>
@@ -97,6 +109,15 @@ ___
 * <https://www.google.com/>
 
 ### Inserting Images or Gifs using links
+
+`![]()`
+```
+ ! means image
+ [] alternative text
+ () image url
+```
+
+>Example
 
 ```
 ![Octocat](https://user-images.githubusercontent.com/81953271/124010886-b571ca80-d9df-11eb-86ac-b358c48ac6aa.png "Github Logo") 
