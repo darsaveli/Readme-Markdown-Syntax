@@ -41,6 +41,7 @@ __This will also be bold__
 ***Bold and Italics***
 _You **can** combine them_
 ~~Striked Text~~
+***~~Italic, bold, and strikethrough1~~***	
 ```
 
 *Italics* <br>
@@ -50,6 +51,7 @@ __This will also be bold__<br>
 _You **can** combine them_<br>
 ***Bold and Italics***<br>
 ~~Striked Text~~
+***~~Italic, bold, and strikethrough1~~***	
 ___
 
 ### Lists
