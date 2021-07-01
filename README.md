@@ -170,13 +170,19 @@ ___
 
 ___
 
-### Block Quotes
+### Quotes
 
 ```git
 > This is a block quoted text
 ```
 
 > This is a block quoted text
+
+```git
+`git status`
+```
+
+`git status`
 
 ___
 
@@ -275,6 +281,11 @@ ___
 ```git
  * __ <br> etc ```
 ```
+___
+
+### Comments
+
+<!-- comment written in markdown -->
 ___
 
 ### Emoji
