@@ -199,8 +199,8 @@ ___
 ### Code Block
 There are three ways to add code in markdown
 1. Inline Code (single backtick)
-1. Whitespace (Four Spaces Indentation)
-1. Fenced Code Block (Three Backticks *or* Tildes)
+2. Whitespace (Four Spaces Indentation)
+3. Fenced Code Block (Three Backticks *or* Tildes)
 
     `this` is an example of inline code.
     
