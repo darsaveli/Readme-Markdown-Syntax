@@ -315,6 +315,8 @@ GitHub supports emoji!
 
 To see a list of every image Github supports, check out the [Emoji Cheat Sheet](https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md)
 
+___
+
 ### Anchor
 In fact, each title is an anchor, similar to the HTML anchor (`#`), e.g.
 
