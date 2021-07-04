@@ -62,16 +62,16 @@ Unordered
 * Item 2
   * Item 1a
   * Item 2a
-    *Item 1b
-    *Item 2b
+     *Item 1b
+     *Item 2b
 ```
 
 * Item 1
 * Item 2
   * Item 1a
   * Item 2a
-    *Item 1b
-    *Item 2b
+     *Item 1b
+     *Item 2b
 
 OR
 `- Item 1`
@@ -79,20 +79,20 @@ OR
 
 Ordered 
 ```git
-1. Item 1
-2. Item 2
-    1. Item 1a
-    2. Item 2a
-      1. Item 1b
-      2. Item 2b
+1. First
+2. jhg
+   1. Second
+   2. jhg
+      1. Third
+      2. jhg
 ```
 
-1. Item 1
-2. Item 2
-    1. Item 1a
-    2. Item 2a
-      1. Item 1b
-      2. Item 2b
+1. First
+2. jhg
+   1. Second
+   2. jhg
+      1. Third
+      2. jhg
 
 ___
 
