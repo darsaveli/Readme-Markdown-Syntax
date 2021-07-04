@@ -178,12 +178,12 @@ ___
 To open another webpage when image is clicked, enclose the Markdown for the image in brackets, and then add the link in parentheses.
 
 ```
-![Octocat](https://user-images.githubusercontent.com/81953271/124010886-b571ca80-d9df-11eb-86ac-b358c48ac6aa.png "Github Logo") 
-(https://github.com/)
+[![Octocat](https://user-images.githubusercontent.com/81953271/124010886-b571ca80-d9df-11eb-86ac-b358c48ac6aa.png "GitHub Logo")](https://github.com/)
+
 ```
 
- ![Octocat](https://user-images.githubusercontent.com/81953271/124010886-b571ca80-d9df-11eb-86ac-b358c48ac6aa.png) 
-(https://github.com/)
+[![Octocat](https://user-images.githubusercontent.com/81953271/124010886-b571ca80-d9df-11eb-86ac-b358c48ac6aa.png "GitHub Logo")](https://github.com/)
+
 ___
 
 ### Tables
