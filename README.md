@@ -1,4 +1,6 @@
+<p align="center">
 # Readme Markdown Syntax
+</p>
 Markdown is a syntax for styling all forms of writing on the GitHub platform.
 Mostly, it is just regular text with a few non-alphabetic characters thrown in, like ```git # or * ```
 
