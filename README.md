@@ -289,8 +289,44 @@ There are three ways to add code in markdown
 ```
 console.log('Used backticks to show snippets')
 ```
-    console.log('four whitespace works too!')    
+    console.log('four whitespace works too!') 
     
+### Fenced code blocks
+With GFM you can wrap your code with three back quotes to create a code block without the leading spaces. Add annoptional language identifier and your code will get syntax highlighting.
+
+```git
+```Java
+public static void main(String[]args){} //Java
+```
+```c
+int main(int argc, char *argv[]) //C
+```
+```Bash
+echo "hello GitHub" #Bash
+```
+```javascript
+document.getElementById("myH1").innerHTML="Welcome to my Homepage"; //javascipt
+```
+```cpp
+string &operator+(const string& A,const string& B) //cpp
+```
+```
+
+```Java
+public static void main(String[]args){} //Java
+```
+```c
+int main(int argc, char *argv[]) //C
+```
+```Bash
+echo "hello GitHub" #Bash
+```
+```javascript
+document.getElementById("myH1").innerHTML="Welcome to my Homepage"; //javascipt
+```
+```cpp
+string &operator+(const string& A,const string& B) //cpp
+```
 ___
 
 ### Syntax Highlighting
