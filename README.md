@@ -62,12 +62,16 @@ Unordered
 * Item 2
   * Item 1a
   * Item 2a
+    *Item 1b
+    *Item 2b
 ```
 
 * Item 1
 * Item 2
   * Item 1a
   * Item 2a
+    *Item 1b
+    *Item 2b
 
 OR
 `- Item 1`
@@ -79,12 +83,16 @@ Ordered
 2. Item 2
     1. Item 1a
     2. Item 2a
+      1. Item 1b
+      2. Item 2b
 ```
 
 1. Item 1
 2. Item 2
     1. Item 1a
     2. Item 2a
+      1. Item 1b
+      2. Item 2b
 
 ___
 
@@ -100,18 +108,40 @@ ___
 * https://www.google.com/
 * <https://www.google.com/>
 
+### Link Label 
+```git
+[My GitHub][GitHubLink]
+```
+[My GitHub][GitHubLink]
+
+You may define your link label anywhere in the document.
+
+### Links to the URLs in a repository
+
+```git
+[Example document](/example/example.md)
+```
+
+[Example document](/example/example.md)
+
+```git
+[example](./example)
+```
+
+[example](./example)
+
+___
+
 ### Inserting Images or Gifs using links
 
-`![]()`
-```
- ! means image
- [] alternative text
- () image url
-```
+![alt](URL "title")
+
+alt and title are corresponding to the alt and title attributes in the HTML (all can be omitted)：
+- alt indicates the replacement text when the image fails to display
+- title indicates the text to display when the mouse hovers over the image (note that it should be quoted here)
 
 >Example
 
-```
 ![Octocat](https://user-images.githubusercontent.com/81953271/124010886-b571ca80-d9df-11eb-86ac-b358c48ac6aa.png "Github Logo") 
 ```
 As same as links, but add an exlamation mark (!) before opening square bracket.  
@@ -181,6 +211,8 @@ ___
 
 * [x] Checkbox selected
 
+You may use this syntax in GitHub's issue to check or uncheck the checkbox in real time without having to modify the original version of the issue.
+
 ___
 
 ### Quoting Text
@@ -191,13 +223,32 @@ ___
 
 > This is a block quoted text
 
-### Quoting line
+### Multi-level blockquotes
+```
+> Asia
+>> China
+>>> Beijing
+>>>> Haidian
+>>>>> Tsinghua
+```
+#### Look like
+> Asia
+>> China
+>>> Beijing
+>>>> Haidian
+>>>>> Tsinghua
+
+* These are fenced code blocks
+
+___
+
+### Text highlighting
 
 ```git
-`git status`
+`linux` `ubuntu`
 ```
-
-`git status`
+Using a pair of backquotes is suitable for making tags for articles
+`linux` `ubuntu`
 
 ___
 
@@ -290,12 +341,41 @@ ___
 ```
 ___
 
-### How to make visible markdown characters? 
+### Visible markdown characters
  
 ```git
 ```git
  * __ <br> etc ```
 ```
+___
+
+### Multi-line text
+
+    Sons of Gondor,
+    of Rohan,
+    my brothers!
+
+Add 1 tab or 4 spaces at the beginning of several lines of text.
+
+OR
+
+Use three backticks:
+
+```git
+```
+Sons of Gondor,
+of Rohan,
+my brothers!
+```
+```
+
+```
+Sons of Gondor,
+of Rohan,
+my brothers!
+```
+This syntax can also be used for code highlighting
+
 ___
 
 ### Comments in Markdown
