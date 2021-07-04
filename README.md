@@ -1,4 +1,4 @@
-<h1 align="center">Readme Markdown Syntax</h1>
+<h1 align="center">The Complete Guide of <br> Readme Markdown Syntax</h1>
 
 Markdown is a syntax for styling all forms of writing on the GitHub platform.
 Mostly, it is just regular text with a few non-alphabetic characters thrown in, like ```git # or * ```
