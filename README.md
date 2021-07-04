@@ -162,10 +162,18 @@ Image source can be either a location from the local machine or any valid image 
 ```
 <img src="https://github.com/darsaveli/Mariam/blob/main/1479814528_webarebears.gif" width="385px" align="center">
 
-You can use HTML tags like width="385px", align="right", hight="876px", etc depending what you need. In this case this gif was once uploaded to the repository and the link was taken from there.
+You can use HTML tags like width="385px", hight="876px", etc depending what you need. In this case this gif was once uploaded to the repository and the link was taken from there.
 
 Other options to resize: 
 - `![](https://  link | width=100)`
+
+### Align
+You may specify alignment like this:
+
+| Align left | Centered  | Align right |
+| :------------ |:---------------:| -----:|
+| a     | b | c |
+
 
 ### Linking Image/Gif
 To open another webpage when image is clicked, enclose the Markdown for the image in brackets, and then add the link in parentheses.
