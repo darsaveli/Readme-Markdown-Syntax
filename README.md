@@ -335,7 +335,6 @@ They will be invisible on readme
 ___
 
 ### Emoji
-GitHub supports emoji!
 ```git
 :grinning:	or just place the emoji 😀
 ```
