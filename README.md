@@ -56,7 +56,8 @@ ___
 
 ### Lists
 
-Unordered 
+> Unordered 
+
 ```git
 * Item 1
 * Item 2
@@ -77,7 +78,8 @@ OR
 `- Item 1`
 - Item 1
 
-Ordered 
+> Ordered 
+
 ```git
 1. First
 2. jhg
