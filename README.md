@@ -365,13 +365,6 @@ The diff effect that can be displayed in GFM. Green is for new, while red is for
 The syntax is similar to code [fenced code blocks](#fenced-code-blocks), except that the diff is written after the three backticks.
 And in the content, the beginning of `+ ` indicates the addition, and the beginning of `- ` indicates the deletion.
 
-```git
-```diff
-+ Hello world!
-- This is useless.
-```
-```
-
 ```diff
 + Hello world!
 - This is useless.
