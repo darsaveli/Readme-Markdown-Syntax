@@ -290,6 +290,61 @@ p.s.
 ```
 ___
 
+### Break between lines
+
+```git
+<br>
+```
+___
+
+### Visible markdown characters
+ 
+```git
+```git
+ * __ <br> etc ```
+```
+___
+
+### Multi-line text
+
+    aaa,
+    sss,
+    ddd!
+
+Add 1 tab or 4 spaces at the beginning of several lines of text.
+
+OR
+
+Use three backticks:
+
+```
+asd,
+sfd,
+wer!
+```
+This syntax can also be used for code highlighting
+
+___
+
+### Comments in Markdown
+
+```git
+<!-- comment written in markdown -->
+```
+They will be invisible on readme
+___
+
+### Emoji
+GitHub supports emoji!
+```git
+:grinning:	or just place the emoji 😀
+```
+:grinning:	or just place the emoji 😀
+
+To see a list of every image Github supports, check out the [Emoji Cheat Sheet](https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md)
+
+___
+
 ### Code Block
 There are three ways to add code in markdown
 1. Inline Code (single backtick)
@@ -369,60 +424,6 @@ And in the content, the beginning of `+ ` indicates the addition, and the beginn
 + Hello world!
 - This is useless.
 ```
-___
-
-### Break between lines
-
-```git
-<br>
-```
-___
-
-### Visible markdown characters
- 
-```git
-```git
- * __ <br> etc ```
-```
-___
-
-### Multi-line text
-
-    aaa,
-    sss,
-    ddd!
-
-Add 1 tab or 4 spaces at the beginning of several lines of text.
-
-OR
-
-Use three backticks:
-
-```
-asd,
-sfd,
-wer!
-```
-This syntax can also be used for code highlighting
-
-___
-
-### Comments in Markdown
-
-```git
-<!-- comment written in markdown -->
-```
-They will be invisible on readme
-___
-
-### Emoji
-GitHub supports emoji!
-```git
-:grinning:	or just place the emoji 😀
-```
-:grinning:	or just place the emoji 😀
-
-To see a list of every image Github supports, check out the [Emoji Cheat Sheet](https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md)
 
 ___
 
