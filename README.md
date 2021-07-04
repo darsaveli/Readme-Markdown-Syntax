@@ -62,16 +62,16 @@ Unordered
 * Item 2
   * Item 1a
   * Item 2a
-     *Item 1b
-     *Item 2b
+     * Item 1b
+     * Item 2b
 ```
 
 * Item 1
 * Item 2
   * Item 1a
   * Item 2a
-     *Item 1b
-     *Item 2b
+     * Item 1b
+     * Item 2b
 
 OR
 `- Item 1`
