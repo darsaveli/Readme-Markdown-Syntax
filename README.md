@@ -136,7 +136,9 @@ ___
 
 ### Inserting Images or Gifs using links
 
+```git
 ![alt](URL "title")
+```
 
 alt and title are corresponding to the alt and title attributes in the HTML (all can be omitted)：
 - alt indicates the replacement text when the image fails to display
