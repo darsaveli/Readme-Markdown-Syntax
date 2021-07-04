@@ -1,7 +1,4 @@
 <h1 align="center">Readme Markdown Syntax</h1>
-# Readme Markdown Syntax align="center"
-<p align="center"> Readme Markdown Syntax </p>
-<p align="center"> # Readme Markdown Syntax </p>
 
 Markdown is a syntax for styling all forms of writing on the GitHub platform.
 Mostly, it is just regular text with a few non-alphabetic characters thrown in, like ```git # or * ```
@@ -218,6 +215,7 @@ You may specify alignment like this:
 | :------------ |:---------------:| -----:|
 | aaa     | bbb | ccc |
 
+p.s. You can use alignment with `<h1 (or 2 etc.) align="center"> your text </h1>` tags or with `<p align="center"> your text</p>` tag to align plain text. 
 ___
 
 ### CheckBox
