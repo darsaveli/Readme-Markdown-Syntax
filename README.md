@@ -121,7 +121,7 @@ You may define your link label anywhere in the document.
 e.g. put on bottom: 
 
 --------------------------------
-[GitHubLink]:https://github.com/darsaveli "This is my GitHub"
+[GitHubLink]:https://github.com/darsaveli
 ```
 
 ### Links to the URLs in a repository
@@ -395,9 +395,9 @@ ___
 
 ### Multi-line text
 
-    Sons of Gondor,
-    of Rohan,
-    my brothers!
+    aaa,
+    sss,
+    ddd!
 
 Add 1 tab or 4 spaces at the beginning of several lines of text.
 
@@ -405,18 +405,10 @@ OR
 
 Use three backticks:
 
-```git
 ```
-Sons of Gondor,
-of Rohan,
-my brothers!
-```
-```
-
-```
-Sons of Gondor,
-of Rohan,
-my brothers!
+asd,
+sfd,
+wer!
 ```
 This syntax can also be used for code highlighting
 
@@ -449,3 +441,6 @@ In fact, each title is an anchor, similar to the HTML anchor (`#`), e.g.
 |`[Back to top](#readme)`|[Back to top](#readme)|
 
 Note that all the letters in the title are converted to **lowercase letters**.
+
+--------------------------------
+[GitHubLink]:https://github.com/darsaveli
