@@ -141,21 +141,20 @@ ___
 ```
 
 alt and title are corresponding to the alt and title attributes in the HTML (all can be omitted)：
-- alt indicates the replacement text when the image fails to display
-- title indicates the text to display when the mouse hovers over the image (note that it should be quoted here)
+- alt in square bracket indicates the replacement text when the image fails to display
+- parenthesis contains image source
+- title in quotes indicates the text to display when the mouse hovers over the image
+
+Nite: Dropping the image to the readme file will upload it automatically with this syntax;
+It's the same as links, but add an exlamation mark (!) before opening square bracket;
+Image source can be either a location from the local machine or any valid image URL;
 
 >Example
 
-![Octocat](https://user-images.githubusercontent.com/81953271/124010886-b571ca80-d9df-11eb-86ac-b358c48ac6aa.png "Github Logo") 
+```git
+![Octocat](https://user-images.githubusercontent.com/81953271/124010886-b571ca80-d9df-11eb-86ac-b358c48ac6aa.png "Github logo") 
 ```
-As same as links, but add an exlamation mark (!) before opening square bracket.  
-The square bracket contains `alt` for the image and parenthesis contains image source.  
-Image source can be either a location from the local machine or any valid image URL.  
-the last part contains additional information about the image shown when use hovers through it.
-
-p.s. dropping the image to the readme file will upload it automatically with this syntax too.
-
-![Octocat](https://user-images.githubusercontent.com/81953271/124010886-b571ca80-d9df-11eb-86ac-b358c48ac6aa.png) 
+![Octocat](https://user-images.githubusercontent.com/81953271/124010886-b571ca80-d9df-11eb-86ac-b358c48ac6aa.png "Github logo") 
 
 ### Resize images/Gifs
 ```
