@@ -274,59 +274,24 @@ ___
 ### Code Block
 There are three ways to add code in markdown
 1. Inline Code (single backtick)
-2. Whitespace (Four Spaces Indentation)
-3. Fenced Code Block (Three Backticks *or* Tildes)
-
-    `this` is an example of inline code.
-    
-    '''
-    console.log('Used backticks to show snippets')
-    '''
-    
-    console.log('four whitespace works too!')
-    
-`this` is an example of inline code.
-```
-console.log('Used backticks to show snippets')
-```
-    console.log('four whitespace works too!') 
-    
-### Fenced code blocks
-With GFM you can wrap your code with three back quotes to create a code block without the leading spaces. Add annoptional language identifier and your code will get syntax highlighting.
+2. Whitespace
 
 ```git
-```Java
-public static void main(String[]args){} //Java
+    `this` is an example of inline code.
 ```
-```c
-int main(int argc, char *argv[]) //C
-```
-```Bash
-echo "hello GitHub" #Bash
-```
-```javascript
-document.getElementById("myH1").innerHTML="Welcome to my Homepage"; //javascipt
-```
-```cpp
-string &operator+(const string& A,const string& B) //cpp
-```
-```
+    four spaces work too!
+    
+3. Fenced code blocks
+With GFM you can wrap your code with three back quotes to create a code block without the leading spaces. Add annoptional language identifier and your code will get syntax highlighting.
 
 ```Java
 public static void main(String[]args){} //Java
 ```
-```c
-int main(int argc, char *argv[]) //C
-```
-```Bash
-echo "hello GitHub" #Bash
-```
+
 ```javascript
 document.getElementById("myH1").innerHTML="Welcome to my Homepage"; //javascipt
 ```
-```cpp
-string &operator+(const string& A,const string& B) //cpp
-```
+
 ___
 
 ### Syntax Highlighting
