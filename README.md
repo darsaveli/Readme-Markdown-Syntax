@@ -8,7 +8,6 @@ You can use Markdown most places around GitHub:
 1. Gists
 2. Comments in Issues and Pull Requests
 3. Files with the .md or .markdown extension
-4. For more information, see “Writing on GitHub” in the GitHub Help.
 
 ___
 
