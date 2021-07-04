@@ -171,8 +171,8 @@ Other options to resize:
 You may specify alignment like this:
 
 | Align left | Centered  | Align right |
-| :------------ |:---------------:| -----:|
-| a     | b | c |
+| --- |--- | --- |
+| a   | b | c |
 
 
 ### Linking Image/Gif
