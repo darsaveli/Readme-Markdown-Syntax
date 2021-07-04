@@ -117,6 +117,12 @@ ___
 [My GitHub][GitHubLink]
 
 You may define your link label anywhere in the document.
+```git
+e.g. put on bottom: 
+
+--------------------------------
+[GitHubLink]:https://github.com/darsaveli "This is my GitHub"
+```
 
 ### Links to the URLs in a repository
 
@@ -348,6 +354,27 @@ System.out.println('java')
   "lastName": "B",
   "age": 18
 }
+```
+___
+
+### diff syntax
+
+In the version control system, the function of diff is indispensable, i.e., the addition and deletion of a file content is displayed.
+The diff effect that can be displayed in GFM. Green is for new, while red is for deleted.
+#### Syntax
+The syntax is similar to code [fenced code blocks](#fenced-code-blocks), except that the diff is written after the three backticks.
+And in the content, the beginning of `+ ` indicates the addition, and the beginning of `- ` indicates the deletion.
+
+```git
+```diff
++ Hello world!
+- This is useless.
+```
+```
+
+```diff
++ Hello world!
+- This is useless.
 ```
 ___
 
