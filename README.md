@@ -435,5 +435,5 @@ In fact, each title is an anchor, similar to the HTML anchor (`#`), e.g.
 
 Note that all the letters in the title are converted to **lowercase letters**.
 
---------------------------------
+___
 [GitHubLink]:https://github.com/darsaveli
