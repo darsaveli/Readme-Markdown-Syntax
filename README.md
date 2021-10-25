@@ -435,5 +435,15 @@ In fact, each title is an anchor, similar to the HTML anchor (`#`), e.g.
 
 Note that all the letters in the title are converted to **lowercase letters**.
 
+### Use YAML: human friendly data serialization language for all programming languages
+
+```yaml
+name: Mariam
+located_in: ***
+from: ***
+education: ***
+job: ***
+company: ***
+```
 ___
 [GitHubLink]:https://github.com/darsaveli
