@@ -426,15 +426,6 @@ And in the content, the beginning of `+ ` indicates the addition, and the beginn
 
 ___
 
-### Anchor
-In fact, each title is an anchor, similar to the HTML anchor (`#`), e.g.
-
-|Syntax|Look like|
-|---|---|
-|`[Back to top](#readme)`|[Back to top](#readme)|
-
-Note that all the letters in the title are converted to **lowercase letters**.
-
 ### Use YAML: human friendly data serialization language for all programming languages
 
 ```yaml
@@ -446,4 +437,14 @@ job: ***
 company: ***
 ```
 ___
+
+### Anchor
+In fact, each title is an anchor, similar to the HTML anchor (`#`), e.g.
+
+|Syntax|Look like|
+|---|---|
+|`[Back to top](#readme)`|[Back to top](#readme)|
+
+Note that all the letters in the title are converted to **lowercase letters**.
+
 [GitHubLink]:https://github.com/darsaveli
