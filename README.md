@@ -447,4 +447,34 @@ In fact, each title is an anchor, similar to the HTML anchor (`#`), e.g.
 
 Note that all the letters in the title are converted to **lowercase letters**.
 
-[GitHubLink]:https://github.com/darsaveli
+___
+
+### Render mathematical expressions in Markdown
+
+You can now use LaTeX style syntax to render math expressions within Markdown inline (using $ delimiters) or in blocks (using $$ delimiters).
+
+Writing expressions as blocks
+To add math as a multiline block displayed separately from surrounding text, start a new line and delimit the expression with two dollar symbols $$.
+
+$$\left( \sum_{k=1}^n a_k b_k \right)^2 \leq \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right)$$
+
+```git
+$$\left( \sum_{k=1}^n a_k b_k \right)^2 \leq \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right)$$
+```
+## Writing inline expressions
+To include a math expression inline with your text, delimit the expression with a dollar symbol $.
+
+This sentence uses `$` delimiters to show math inline:  $\sqrt{3x-1}+(1+x)^2$
+
+```git
+This sentence uses `$` delimiters to show math inline:  $\sqrt{3x-1}+(1+x)^2$
+```
+
+___
+
+
+### [Markdown posts on GitHub](https://github.blog/changelog/label/markdown/)
+
+___
+
+[GitHub Link](https://github.com/darsaveli)
