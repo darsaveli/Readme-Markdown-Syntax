@@ -48,9 +48,9 @@ _You **can** combine them_
 _This will also be italic_<br>
 **Bold Text**<br>
 __This will also be bold__<br>
-_You **can** combine them_<br>
 ***Bold and Italics***<br>
-~~Striked Text~~
+_You **can** combine them_<br>
+~~Striked Text~~<br>
 ***~~Italic, bold, and strikethrough1~~***	
 ___
 
