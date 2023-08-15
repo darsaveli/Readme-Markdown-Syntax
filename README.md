@@ -477,4 +477,3 @@ ___
 
 ___
 
-[GitHub Link](https://github.com/darsaveli)
